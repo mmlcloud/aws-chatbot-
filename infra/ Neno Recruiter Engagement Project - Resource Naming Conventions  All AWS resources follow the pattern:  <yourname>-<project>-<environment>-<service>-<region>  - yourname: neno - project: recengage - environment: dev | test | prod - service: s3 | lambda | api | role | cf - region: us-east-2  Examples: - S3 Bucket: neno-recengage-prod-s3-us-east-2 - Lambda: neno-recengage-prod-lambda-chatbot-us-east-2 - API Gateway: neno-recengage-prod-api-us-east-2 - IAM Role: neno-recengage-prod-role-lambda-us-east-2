@@ -1,0 +1,17 @@
+ Neno Recruiter Engagement Project - Resource Naming Conventions
+
+All AWS resources follow the pattern:
+
+<yourname>-<project>-<environment>-<service>-<region>
+
+- yourname: neno
+- project: recengage
+- environment: dev | test | prod
+- service: s3 | lambda | api | role | cf
+- region: us-east-2
+
+Examples:
+- S3 Bucket: neno-recengage-prod-s3-us-east-2
+- Lambda: neno-recengage-prod-lambda-chatbot-us-east-2
+- API Gateway: neno-recengage-prod-api-us-east-2
+- IAM Role: neno-recengage-prod-role-lambda-us-east-2
